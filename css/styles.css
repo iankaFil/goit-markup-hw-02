@@ -38,7 +38,7 @@ body {
   text-decoration: none;
   color: var(--text-color);
 }
-.nav-item:hover {
+.nav-item:hover .nav-item:focus {
   color: var(--accent-color);
 }
 .main-title {
@@ -61,7 +61,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-.main-button:hover {
+.main-button:hover .main-button:focus {
   background: var(--main-button-hover);
 }
 .contacts {
@@ -72,7 +72,7 @@ body {
   text-decoration: none;
   font-weight: 500;
 }
-.contacts:hover {
+.contacts:hover .contacts:focus {
   color: var(--accent-color);
 }
 .list-items {
@@ -130,7 +130,7 @@ address {
   color: var(--white-color);
   text-decoration: none;
 }
-.address:hover {
+.address:hover .address:focus {
   color: var(--accent-color);
 }
 .address-item {
@@ -140,7 +140,7 @@ address {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-.address-item:hover {
+.address-item:hover .address-item:focus {
   color: var(--accent-color);
 }
 footer {
@@ -158,7 +158,7 @@ footer {
   border: 0;
   cursor: pointer;
 }
-.button:hover {
+.button:hover .button:focus {
   background: var(--accent-color);
 }
 .image-name {
