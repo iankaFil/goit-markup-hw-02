@@ -35,7 +35,6 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: var(--text-color);
   text-decoration: none;
 }
 .nav-item:hover {
@@ -74,7 +73,6 @@ body {
 }
 .contacts:hover {
   color: var(--accent-color);
-  cursor: pointer;
 }
 .list-items {
   list-style-type: none;
@@ -86,10 +84,8 @@ body {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--text-color);
 }
 .desc {
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -107,10 +103,8 @@ body {
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--text-color);
 }
 .user-desc {
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
@@ -123,7 +117,6 @@ body {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--text-color);
 }
 address {
   font-style: normal;
@@ -162,6 +155,7 @@ footer {
   color: var(--text-color);
   background: var(--section-color);
   border: 0;
+  cursor: pointer;
 }
 .button:hover {
   background: var(--accent-color);
@@ -171,10 +165,8 @@ footer {
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
-  color: var(--text-color);
 }
 .image-desc {
-  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
